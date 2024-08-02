@@ -1,0 +1,55 @@
+```css
+button.herdshadow {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button.herdshadow:hover {
+  background-color: #2980b9;
+}
+CSS (styles.css):
+```css
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.white-layer {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.black-layer {
+  position: absolute;
+  width: calc(37% - 8px);
+  height: calc(10% - 10px);
+  background-color: black;
+  border-radius: 2px;
+}
+
+button {
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+}
+
+
+```css
+body {
+  font-family: 'Gothic A1', sans-serif !important;
+  color: #F1B7FF !important;
+}
+ 
